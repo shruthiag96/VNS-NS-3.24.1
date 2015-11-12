@@ -1,0 +1,36 @@
+In a command terminal enter the following commands:
+
+LINUX:
+	$ cd libvns-ns3/[ns3-version]/
+	$ ./waf --prefix=/usr -d release configure
+	$ ./waf
+	$ sudo ./waf install
+	$ cd vns-ns3
+	$ qmake
+	$ make
+	$ sudo make install
+
+OSX:
+	$ cd libvns-ns3/[ns3-version]/
+	$ ./waf --prefix=/usr -d release configure
+	$ ./waf
+	$ sudo ./waf install
+	$ cd vns-ns3
+	$ qmake -spec macx-g++
+	$ make
+	$ sudo make install
+
+
+That's it!
+
+libvns-ns3 dependencies: 
+	
+	-> libvns
+
+
+
+
+
+
+
+
